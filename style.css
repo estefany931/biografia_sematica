@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+header{
+    background-color:antiquewhite ; 
+    color: royalblue;
+}
+nav{
+    background-color: blanchedalmond;
+    color: aqua;
+    display: flex;
+    padding: 22px;
+
+}
+.container{
+    display: flex;
+}
+nav ul{
+
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+nav ul li a{
+    color: chocolate;
+    padding: 15px;
+    text-decoration: none;
+}
+
+aside{
+    color: brown;
+    padding: 25px;
+    width: 25%;
+    display:flex;
+    flex-direction: column;
+
+}
+main{
+    padding: 1px;
+    width: 75%;
+
+}
+
+footer{
+    background-color: antiquewhite;
+
+
+}
