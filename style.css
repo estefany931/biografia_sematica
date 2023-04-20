@@ -5,18 +5,27 @@ body{
     flex-direction: column;
 
 
+
 }
 
 header{
-    background-color:antiquewhite ; 
-    color: royalblue;
+    background-color: rgba(147, 69, 167, 0.473) ; 
+    color: rgb(255, 255, 255) ;
+    display: flex;
+    padding: 2px;
+    font-size: larger;
 }
 nav{
     background-color: blanchedalmond;
     color: aqua;
     display: flex;
+    font-size: larger;
     padding: 22px;
 
+}
+form{
+    margin: 0%;
+    
 }
 .container{
     display: flex;
